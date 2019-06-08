@@ -3,7 +3,7 @@ import org.junit.Assert;
 public class AssertionPretty <T> {
     T testResult;
     T expectedResult;
-    String testDescription;
+    String testDescription="";
 
     public AssertionPretty(T testResult, T expectedResult) {
         this.testResult = testResult;
@@ -22,7 +22,7 @@ public class AssertionPretty <T> {
 
     public void assertTrue(boolean condition){
         String newLine = "\n";
-        String errorMessage = testDescription + newLine + "Expected Result: " + expectedResult.toString() + newLine + "Test Result: " + testResult.toString();
+        String errorMessage = newLine + testDescription + newLine + "Expected Result: " + expectedResult.toString() + newLine + "Test Result: " + testResult.toString();
         Assert.assertTrue(errorMessage, condition);
     }
 }
