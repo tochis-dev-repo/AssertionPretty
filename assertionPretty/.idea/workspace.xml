@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c220b4da-7776-4b6b-8ccd-17b6ac3c2365" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/AssertionPrettyUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assertionPretty.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AssertionPrettyUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AssertionPrettyUnitTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/AssertionPretty.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="330">
+              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -32,11 +30,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/AssertionPrettyUnitTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="57" lean-forward="true" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+            <state relative-caret-position="450">
+              <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
               <folding>
                 <element signature="e#77#78#0" expanded="true" />
                 <element signature="e#105#106#0" expanded="true" />
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#193#194#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,6 +57,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/test/java/AssertionPretty.java" />
         <option value="$PROJECT_DIR$/src/test/java/AssertionPrettyUnitTest.java" />
       </list>
     </option>
@@ -121,7 +122,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.AssertionPrettyUnitTest.getTextTest">
     <configuration name="AssertionPrettyUnitTest.additionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="assertionPretty" />
       <option name="PACKAGE_NAME" value="" />
@@ -132,8 +133,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AssertionPrettyUnitTest.getTextTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assertionPretty" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AssertionPrettyUnitTest" />
+      <option name="METHOD_NAME" value="getTextTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AssertionPrettyUnitTest.getTextTest" />
         <item itemvalue="JUnit.AssertionPrettyUnitTest.additionTest" />
       </list>
     </recent_temporary>
@@ -151,6 +163,23 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="AssertionPrettyUnitTest_additionTest - 2019.06.09 at 02h 09m 48s.xml">
+      <configuration name="AssertionPrettyUnitTest.additionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AssertionPrettyUnitTest_additionTest - 2019.06.09 at 02h 10m 04s.xml">
+      <configuration name="AssertionPrettyUnitTest.additionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AssertionPrettyUnitTest_additionTest - 2019.06.09 at 02h 10m 56s.xml">
+      <configuration name="AssertionPrettyUnitTest.additionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AssertionPrettyUnitTest_additionTest - 2019.06.09 at 02h 11m 18s.xml">
+      <configuration name="AssertionPrettyUnitTest.additionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AssertionPrettyUnitTest_additionTest - 2019.06.09 at 02h 12m 11s.xml">
+      <configuration name="AssertionPrettyUnitTest.additionTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="774" extended-state="0" />
     <editor active="true" />
@@ -160,14 +189,15 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32991204" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32991204" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32991204" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -188,18 +218,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AssertionPretty.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="330">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AssertionPrettyUnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="57" lean-forward="true" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+        <state relative-caret-position="450">
+          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
           <folding>
             <element signature="e#77#78#0" expanded="true" />
             <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
           </folding>
         </state>
       </provider>
